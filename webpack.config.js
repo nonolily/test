@@ -1,5 +1,5 @@
 const path = require('path')
-const hrmlWebpackPlugin = require('html-webpack-pluhin')
+const htmlWebpackPlugin = require('html-webpack-plugin')
 // hotmodulereplacement
 
 module.exports = {
@@ -26,7 +26,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new HtmlWebpackPlugin({
+        new htmlWebpackPlugin({
             title: 'webpack hello'
         })
     ],
